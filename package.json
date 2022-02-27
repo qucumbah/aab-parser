@@ -1,8 +1,8 @@
 {
   "name": "aab-parser",
-  "version": "1.0.0",
-  "description": "Parser for android app bundles",
-  "main": "build/index.js",
+  "version": "1.0.1",
+  "description": "Parser for Android app bundles",
+  "main": "index.js",
   "scripts": {
     "build": "make.js"
   },
@@ -16,7 +16,7 @@
     "parser"
   ],
   "author": "qucumbah",
-  "license": "ISC",
+  "license": "MIT",
   "bugs": {
     "url": "https://github.com/qucumbah/aab-parser/issues"
   },

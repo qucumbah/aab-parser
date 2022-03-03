@@ -20,13 +20,13 @@ Only these fields are represented:
 
 This function accepts either a path to the aab, or a buffer with app bundle content.
 
-Parses the app bundle manifest and returns it as an instance of `Manifest`.
+Asynchronously parses the app bundle manifest and returns it as an instance of `Manifest`.
 
 ### `parseAabManifestJSON` function
 
 This function accepts either a path to the aab, or a buffer with app bundle content.
 
-Parses the app bundle manifest and returns it a plain JSON object. This object contains more fields compared to an instance of `Manifest`, but it's not typed.
+Asynchronously parses the app bundle manifest and returns it a plain JSON object. This object contains more fields compared to an instance of `Manifest`, but it's not typed.
 
 ## Usage example
 

@@ -19,4 +19,4 @@ jobs:
         # Only publish on release creation
         if: github.event.action == 'created'
         env:
-          NODE_AUTH_TOKEN: ${{secrets.npm_token}}
+          NODE_AUTH_TOKEN: ${{secrets.NPM_TOKEN}}

@@ -9,5 +9,7 @@ const resources = [
   './Resources.proto',
   './package.json',
   './package-lock.json',
+  './README.md',
+  './LICENCE',
 ];
 resources.forEach((resource) => fs.copyFileSync(resource, path.join('build', resource)));

@@ -2,7 +2,7 @@ const fs = require('fs');
 const path = require('path');
 const cp = require('child_process');
 
-fs.rmdirSync('./build', { recursive: true });
+fs.rmSync('./build', { recursive: true, force: true });
 cp.execSync('tsc');
 
 const resources = [

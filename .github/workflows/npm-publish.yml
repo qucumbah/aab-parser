@@ -1,6 +1,7 @@
 name: Publish to NPM
 
 on:
+  push:
   release:
     types: [created]
 
@@ -15,5 +16,7 @@ jobs:
       - run: npm install
       - run: npm run build
       - run: npm publish ./build
+        # Only publish on release creation
+        if: github.event.action == 'created'
         env:
           NODE_AUTH_TOKEN: ${{secrets.npm_token}}

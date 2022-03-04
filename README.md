@@ -1,8 +1,8 @@
 # aab-parser
 
 [![Build and Publish](https://github.com/qucumbah/aab-parser/actions/workflows/npm-publish.yml/badge.svg)](https://github.com/qucumbah/aab-parser/actions/workflows/npm-publish.yml)
-![npm version](https://img.shields.io/npm/v/aab-parser)
-![npm downloads](https://img.shields.io/npm/dw/aab-parser)
+[![npm version](https://img.shields.io/npm/v/aab-parser)](https://www.npmjs.com/package/aab-parser)
+[![npm downloads](https://img.shields.io/npm/dw/aab-parser)](https://www.npmjs.com/package/aab-parser)
 
 A lightweight Android app bundle parser written in Typescript with asynchronous interface. Works on pure Node JS, doesn't require additional installation of JDK.
 
